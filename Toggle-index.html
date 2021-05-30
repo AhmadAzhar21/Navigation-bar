@@ -5,13 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./Toggle-index.css">
-  <script src="./Toggle-index.js"></script>
   <title>Naavigation Bar</title>
 </head>
 <body>
   <div class="parent">
     <div class="child">
-      <div class="grand-child">
+      <nav>
         <div class="logo">
           <svg width="150" height="23" viewBox="0 0 150 23" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M20.0825 6.40107C19.2873 4.53987 17.9711 2.94679 16.2916 1.81258C14.5691 0.646851 12.5354 0.02398 10.4539 0.0246605C9.05823 0.0237287 7.67669 0.303748 6.39203 0.847954C4.52476 1.64059 2.92627 2.95361 1.78817 4.62961C0.621052 6.34836 -0.00189555 8.37708 4.33279e-06 10.453V22.7777H2.47593V10.453C2.47502 9.39221 2.68883 8.34211 3.10454 7.36569C3.7133 5.94305 4.71995 4.72543 6.00413 3.85846C7.3165 2.96851 8.86703 2.49325 10.4539 2.49454C11.5174 2.49363 12.57 2.70691 13.5488 3.12161C14.9752 3.72854 16.1959 4.73282 17.0647 6.01412C17.9568 7.32329 18.4332 8.87003 18.4319 10.453V22.7777H20.9078V10.453C20.9088 9.06075 20.6281 7.68259 20.0825 6.40107Z" fill="#E5E5E5"/>
@@ -20,11 +19,23 @@
             <path d="M113.136 1.25952H110.66V22.7777H113.136V1.25952Z" fill="#E5E5E5"/>
           </svg>
         </div>
-        <div class="menu-list">
-          <button></button>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
         </div>
-      </div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </nav>
+      <section class="landing">
+        <h1>Ahmad Here</h1>
+      </section>
     </div>
   </div>
+  <script src="./Toggle-index.js"></script>
+
 </body>
 </html>
